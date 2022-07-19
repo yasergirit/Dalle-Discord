@@ -1,5 +1,5 @@
 # configuration
-from settings import settings
+import config
 
 # discord
 import discord
