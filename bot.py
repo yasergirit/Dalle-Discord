@@ -26,7 +26,7 @@ async def on_message(message):
     if message.content.startswith('!hello'):
         await message.channel.send('Hello!')
 
-    if message.content.startswith('!generate:'):
+    if message.content.startswith('!generate'):
         await message.channel.send("Making the request - it may take a while")
         req = post(url = settings.URL, json = {'prompt': message.content.split("!generate:")[1].strip()})
         await message.channel.send("Result is completed")
