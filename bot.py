@@ -28,7 +28,7 @@ async def on_message(message):
 
     if message.content.startswith('!generate'):
         await message.channel.send("Making the request - it may take a while")
-        req = post(url = settings.URL, json = {'prompt': message.content.split("!generate:")[1].strip()})
+        req = post(url = config.URL, json = {'prompt': message.content.split("!generate:")[1].strip()})
         await message.channel.send("Result is completed")
         
         images = re.search('\[(.*)\]', req.content.decode("utf-8") ).group(0)
@@ -41,4 +41,4 @@ async def on_message(message):
         
         await message.channel.send(files = myfiles)
 
-client.run(config.token)
+client.run(config.TOKEN)
