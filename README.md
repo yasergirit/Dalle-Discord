@@ -7,7 +7,7 @@ Discord implementation of Dall-e Mini which is an alternative to Dall-e.
 - Edit config.py to make the necessary configurations
 
 ### Using The Bot
-'''
+```
 Just enter a prompt and wait a while
 Use '!generate: [your prompt here]' to generate outputs
-'''
+```
