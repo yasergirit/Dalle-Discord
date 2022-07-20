@@ -30,7 +30,7 @@ async def on_message(message):
 
     if message.content.startswith('!generate:'):
         await message.channel.send("Making the request - it may take a while")
-        req = post(url = config.URL, json = {'prompt': message.content.split("!generate:")[1].strip()})
+        req = post(url = "https://bf.dallemini.ai/generate", json = {'prompt': message.content.split("!generate:")[1].strip()})
         await message.channel.send("Result is completed")
         
         images = re.search('\[(.*)\]', req.content.decode("utf-8") ).group(0)
