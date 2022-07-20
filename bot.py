@@ -41,4 +41,4 @@ async def on_message(message):
         
         await message.channel.send(files = myfiles)
 
-client.run("TOKEN")
+client.run("config.TOKEN")
