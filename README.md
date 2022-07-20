@@ -2,7 +2,7 @@
 
 
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Python](https://camo.githubusercontent.com/0957a527875ad5831772e4fa4cc89e468af42dfc33cc6c29b19c54cc0d57a8bd/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d332e31302d626c75652e7376673f7374796c653d666c61742d737175617265)
 
 Discord implementation of Dall-e Mini which is an alternative to Dall-e.
 - You can deploy the bot by some changes.
