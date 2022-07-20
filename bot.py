@@ -12,6 +12,8 @@ import re
 import io
 from base64 import b64decode
 
+import os
+
 client = discord.Client()
 
 @client.event
@@ -40,5 +42,7 @@ async def on_message(message):
             myfiles.append(discord.File("img/image{}.png".format(i)))
         
         await message.channel.send(files = myfiles)
+        
+        
 
-client.run("config.TOKEN")
+client.run(os.environ.get('TOKEN'))
