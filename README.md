@@ -8,6 +8,6 @@ Discord implementation of Dall-e Mini which is an alternative to Dall-e.
 
 ### Using The Bot
 ```
-Just enter a prompt and wait a while
+# Just enter a prompt and wait a while
 Use '!generate: [your prompt here]' to generate outputs
 ```
