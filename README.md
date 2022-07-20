@@ -1,6 +1,6 @@
 # Dalle-Discord
 
-![This is an image](https://i.ibb.co/bsGn3Q8/Screenshot-from-2022-07-20-15-36-44.png)
+
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
@@ -18,3 +18,5 @@ Use '!generate: [your prompt here]' to generate outputs
 
 e.g: !generate: Photorealistic Museum Hall, Unreal Engine
 ```
+
+![This is an image](https://i.ibb.co/bsGn3Q8/Screenshot-from-2022-07-20-15-36-44.png)
